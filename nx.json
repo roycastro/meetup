@@ -22,6 +22,18 @@
     },
     "elements": {
       "tags": []
+    },
+    "ivyangularapp-e2e": {
+      "tags": []
+    },
+    "ivyangularapp": {
+      "tags": []
+    },
+    "noivyangularapp-e2e": {
+      "tags": []
+    },
+    "noivyangularapp": {
+      "tags": []
     }
   }
 }

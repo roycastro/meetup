@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import '@reactangular/elements';
+import { log } from 'util';
 
 @Component({
   selector: 'reactangular-root',
@@ -27,6 +28,7 @@ import '@reactangular/elements';
 export class AppComponent {
   counter = 0;
   buy(type: CustomEvent) {
+    console['log']('clicked in Angular');
     this.counter++;
   }
 }
